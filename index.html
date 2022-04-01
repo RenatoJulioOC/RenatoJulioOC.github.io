@@ -1,23 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+<head> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Meu Portifóio Web</title>
-    <h1>Renato Julio Oliveira da Cruz</h1>
-    <p><a href="#info">Informações</a></p>
-    <p><a href="#cont">Contato</a></p>
-    <p><a href="#hab">Habilidades</a></p>
+    
+    <style>
+    h1 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: xx-large;
+        color: rgb(102, 4, 4)
+    }
 
+    img {
+        border-radius: 5% 50px
+    }
+
+    p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: xx-larger;
+    }
+
+    .description {
+        font-family: monospace;
+        font-size: x-large;
+    }
+
+    .color {
+        color: rgb(11, 63, 33);
+    }
+
+    .intern-link {
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 900;
+        font-display: 12px;
+    }
+
+    body {
+        background-color: rgb(114, 124, 167);
+        font-size: 20px;
+    }
+
+    ol {
+        font-size: 1,5em;
+        
+    }
+
+
+    </style>
+     
+    <h1>Renato Julio Oliveira da Cruz</h1>
+    <p class="intern-link"><a href="#info">Informações</a></p>
+    <p class="intern-link"><a href="#cont">Contato</a></p>
+    <p class="intern-link"><a href="#hab">Habilidades</a></p>
+    
     <img src="RenatoPhoto.jpeg" alt="Este sou eu" width="200px">
     <p id="info"></p><h2> Informações</h2>
 
-    <p><strong>Data de nascimento: </strong>03/08/2003</p>
-    <p><strong>Nacionalidade: </strong>Brasileiro</p>
-    <p><strong>Cidade natal: </strong>Nova Ponte-MG</p>
-    <p><strong>Residência atual: </strong>São Simão-SP</p>
-    <p><strong>Estado Civil: </strong>Namorando</p><br>     
+    
+</head>
+
+<body>
+    
+    <p class="description"><strong class="color">Data de nascimento: </strong>03/08/2003</p>
+    <p class="description"><strong class="color">Nacionalidade: </strong>Brasileiro</p>
+    <p class="description"><strong class="color">Cidade natal: </strong>Nova Ponte-MG</p>
+    <p class="description"><strong class="color">Residência atual: </strong>São Simão-SP</p>     
     
     <p id="cont"></p><h2>Contato:</h2>
     <ul>
@@ -26,8 +76,6 @@
     </ul>
 
 
-</head>
-<body>
     <p id="hab"></p><h3>Habilidades:</h3>
 
     <p>Site favorito: <a href="https://www.ufc.com.br/" target="_blank">UFC</a></p>
@@ -39,7 +87,8 @@
     <li>Cozinhar</li>
     <li>Raciocínio lógico (resolver cubos mágicos, sudoku, xadrez, poker)</li>
     </ol>
-
+     
     <a href="http://127.0.0.1:5500/RenatoPhoto.jpeg">Minha foto</a>
-</body>
+
+    </body>
 </html>
