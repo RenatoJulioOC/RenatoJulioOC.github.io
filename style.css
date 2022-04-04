@@ -1,0 +1,128 @@
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 10px;
+    font-size: 60px;
+    margin-top: -10px;
+    font-weight: 900;
+    text-align: center;
+    color: rgb(141, 12, 12);
+    text-decoration: none;
+}
+
+img {
+    width: 200px;
+    border-left: 850px;
+    border-radius: 10px;   
+}
+
+p {
+    
+    font-family: serif;
+    font-style: oblique;
+    font-weight: 400;
+    font-size: 20
+}   
+
+.description {   
+    color: rgb(8, 8, 61);
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+    height: 170px;
+    line-height: 1cm;
+    font-size: 22px;
+}
+
+.color {
+    color: rgb(11, 63, 33);
+}
+
+.intern-link {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-display: 12px;
+    font-size: 40px;
+    margin-right: 100px;
+    margin-top: 50px;
+    text-align: center;
+
+}
+a:hover {
+    color: white
+}
+
+.tags3 {
+    display: flex;
+    margin-right: 200px;
+    margin: 30px;
+    margin-left: 50px;
+    padding-left: 450px;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(199, 209, 252);
+    font-size: 20px;
+    
+}
+
+ h2, h3 {
+    text-align: center;
+    background-color: rgb(81, 150, 127);
+    text-decoration: underline;
+}
+
+
+ol {
+    font-size: 1em;
+}
+
+
+#MMA {
+    font-size: 38px;
+}
+
+#Boa {
+    font-size: 30px;
+}
+
+#Basqt {
+    font-size: 25px;
+}
+
+#Cozinhar {
+    font-size: 18px;
+}
+
+#RacLog {
+    font-size: 15px;
+}
+
+#my-photo {
+    float: left;
+    height: 290px;
+    padding: 7px;
+    background-color: rgb(81, 150, 127);
+    margin-top: 28px;
+}
+        
+.container {
+    height: 300px;
+}
+
+ol li:nth-child(odd){
+    background-color: rgb(160, 173, 231);
+}
+
+#name {
+    text-decoration: none;
+}
+
+#habilities {
+    padding-right: 90px;
+}
+
+#name:hover{
+    color:rgb(141, 12, 12);
+}

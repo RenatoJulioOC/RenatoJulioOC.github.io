@@ -1,95 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head> 
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" href="style.css">
     <title>Meu Portifóio Web</title>
-    
-    <style>
-    h1 {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: xx-large;
-        color: rgba(102, 4, 4, 0.9);
-    }
 
-    img {
-        border-radius: 5% 50px;
-    }
-
-    p {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: xx-larger;
-    }
-
-    .description {
-        font-family: monospace;
-        font-size: x-large;
-        color: blue;
-    }
-
-    .color {
-        color: rgb(11, 63, 33);
-    }
-
-    .intern-link {
-        font-family: 'Courier New', Courier, monospace;
-        font-weight: 900;
-        font-display: 12px;
-    }
-
-    body {
-        background-color: rgb(114, 124, 167);
-        font-size: 20px;
-    }
-
-    ol {
-        font-size: 1,5em;
-        
-    }
-
-
-    </style>
-     
-    <h1>Renato Julio Oliveira da Cruz</h1>
-    <p class="intern-link"><a href="#info">Informações</a></p>
-    <p class="intern-link"><a href="#cont">Contato</a></p>
-    <p class="intern-link"><a href="#hab">Habilidades</a></p>
-    
-    <img src="RenatoPhoto.jpeg" alt="Este sou eu" width="200px">
-    <p id="info"></p><h2> Informações</h2>
-
-    
 </head>
 
 <body>
-    
-    <p class="description"><strong class="color">Data de nascimento: </strong>03/08/2003</p>
-    <p class="description"><strong class="color">Nacionalidade: </strong>Brasileiro</p>
-    <p class="description"><strong class="color">Cidade natal: </strong>Nova Ponte-MG</p>
-    <p class="description"><strong class="color">Residência atual: </strong>São Simão-SP</p>     
-    
-    <p id="cont"></p><h2>Contato:</h2>
+    <div>
+        <h1><a href="https://github.com/RenatoJulioOC" target="_blank" id="name">Renato Julio Oliveira da Cruz</a></h1>
+        <div class="tags3">
+            <p class="intern-link"><a href="#desc">Descrição</a></p>
+            <p class="intern-link"><a href="#cont">Contato</a></p>
+            <p class="intern-link"><a href="#hab">Habilidades</a></p>
+        </div>
+        <div class="container">
+            <img src="RenatoPhoto.jpeg" alt="Este sou eu" id="my-photo">
+            <p id="info"></p>
+            <h2> Descrição</h2>
+            <p class="description"> Prazer, meu nome é Renato, nascido dia 03/08/2003 em Nova Ponte-MG, e atualmente
+                residindo em São Simão-SP.
+                Após completar o ensino médio, entrei em diversos ramos de serviço, principalmente braçais. Eu sempre
+                fui muito familiarizado com jogos, apps e sites de entretenimento,
+                mas nunca pensei que poderia entender o background dos mesmos, até que conheci a escola Trybe, que
+                atiçou meu espírito técnológico,
+                e dentro de 2 semanas pude progredir demais, visto que, até pouco tempo, mal sabia lidar com a nova
+                formatação do PC. Me sinto mais seguro para desempenhar
+                um papel de estudante agora, completo frênesi, há pela frente outros 11 meses para me aprimorar e bem
+                sei que com o passar do tempo, terei ainda mais capacidade para estar empregago na área de
+                Desenvolvimento de Sistemas.</p>
+        </div>
+    </div>
+    <p id="cont"></p>
+    <h2>Contato:</h2>
     <ul>
-    <li><strong>E-mail: </strong>rnt.j.o.d.c@gmail.com</li>
-    <li><strong>Telefone <em>celular</em>: </strong>(16)98103-2213</li>
+        <li><strong>E-mail: </strong>rnt.j.o.d.c@gmail.com</li>
+        <li><strong>Telefone <em>celular</em>: </strong>(16)98103-2213</li>
     </ul>
 
 
-    <p id="hab"></p><h3>Habilidades:</h3>
+    <p id="hab"></p>
+    <h3>Habilidades:</h3>
 
-    <p>Site favorito: <a href="https://www.ufc.com.br/" target="_blank">UFC</a></p>
-    
+    <p>Site favorito: <a href="https://www.ufc.com.br/">UFC</a></p>
+
     <ol>
-    <li><strong>MMA</strong></li>
-    <li>Manobras com canivetes</li>
-    <li>Basquete</li>
-    <li>Cozinhar</li>
-    <li>Raciocínio lógico (resolver cubos mágicos, sudoku, xadrez, poker)</li>
+        <li id="MMA"><strong>MMA</strong></li>
+        <li id="Boa">Boa adaptação</li>
+        <li id="Basqt">Basquete</li>
+        <li id="Cozinhar">Cozinhar</li>
+        <li id="RacLog">Raciocínio lógico (resolver cubos mágicos, sudoku, xadrez, poker)</li>
     </ol>
-     
+
     <a href="http://127.0.0.1:5500/RenatoPhoto.jpeg">Minha foto</a>
 
-    </body>
+</body>
+
 </html>
